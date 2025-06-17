@@ -3,15 +3,24 @@
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=600, initial-scale=1.0" />
-    <title>Welcome on board</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Request OTP KYC</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter&display=swap"
+      rel="stylesheet"
+    />
   </head>
+
   <body
     style="
       margin: 0;
       padding: 0;
-      background-color: #f4f4f4;
-      font-family: 'Inter', Helvetica, sans-serif;
+      background-color: #f5f5f5;
+      display: flex;
+      justify-content: center;
+      font-family: 'Inter', sans-serif;
     "
   >
     <table
@@ -36,7 +45,7 @@
                 <img
                   align="center"
                   width="100%"
-                  src="header_master.png"
+                  src="https://tracomni.blob.core.windows.net/logo-trac/header_master.png"
                   alt="header_master.png"
                 />
               </td>
@@ -45,39 +54,33 @@
             <!-- BODY -->
             <tr>
               <td style="padding: 45px; font-size: 16px; color: #333">
-                <h4 style="font-size: 16px; margin: 0 0 35px">Hai, Agung</h4>
-                <p style="margin: 0 0 25px">
-                  Kami mendeteksi ada kegiatan masuk ke akun TRACtoGo Anda
-                  <br />
-                  <span>
-                    (<a
-                      href="google.com"
-                      style="
-                        color: #1a73e8;
-                        text-decoration: none;
-                        margin: 0;
-                        padding: 0;
-                      "
-                      target="_blank"
-                    >
-                      agung@gmail.com </a
-                    >).
-                  </span>
-                </p>
-                <p style="margin: 0px; padding: 0px; font-weight: bold">
-                  Berikut detailnya:
-                </p>
-                <ul style="margin: 0 0 30px; padding: 0px 27px">
-                  <li>Perangkat: VOG-L29 (android)</li>
-                  <li>
-                    Lokasi: Kota Jakarta Utara - Daerah Khusus Ibu Kota Jakarta
-                  </li>
-                  <li>Waktu: 26 Januari 2025, pukul: 21:20</li>
-                </ul>
-                <p style="margin: 0 0 16px">
-                  Jika ini anda, abaikan email ini. Jika ternyata bukan, segera
-                  ubah kata sandi demi keamanan akun Anda.
-                </p>
+                <h4
+                  style="
+                    font-size: 16;
+                    line-height: 14px;
+                    font-weight: 500;
+                    text-align: center;
+                  "
+                >
+                  Berikut kode OTP Anda:
+                </h4>
+
+                <h3
+                  style="font-size: 22px; font-weight: bold; text-align: center"
+                >
+                  {{ $otp }}
+                </h3>
+
+                <h4
+                  style="
+                    font-size: 16;
+                    line-height: 14px;
+                    font-weight: 500;
+                    text-align: center;
+                  "
+                >
+                  Demi keamanan, jangan bagikan kode ini kepada siapapun.
+                </h4>
               </td>
             </tr>
             <!-- END OF BODY -->
@@ -102,7 +105,8 @@
                     </td>
                     <td>
                       <a
-                        href="https://yourdomain.com"
+                        target="_blank"
+                        href="https://www.trac.astra.co.id/support/hubungi-kami"
                         style="
                           color: #1a73e8;
                           text-decoration: none;
@@ -122,7 +126,7 @@
                     </td>
                     <td>
                       <a
-                        href="https://yourdomain.com"
+                        href="mailto:trac-astrarentcar@ai.astra.co.id"
                         style="
                           color: #1a73e8;
                           text-decoration: none;
@@ -146,7 +150,10 @@
                 >
                   <tr style="border-bottom: 1px solid black">
                     <td style="padding-right: 10px; padding-left: 10px">
-                      <a href="https://google.com" target="_blank">
+                      <a
+                        href="https://www.instagram.com/trac_astra"
+                        target="_blank"
+                      >
                         <img
                           width="20"
                           src="https://tracomni.blob.core.windows.net/logo-trac/ig_icons.svg"
@@ -156,7 +163,10 @@
                       </a>
                     </td>
                     <td style="padding-right: 10px; padding-left: 10px">
-                      <a href="https://google.com" target="_blank">
+                      <a
+                        href="https://www.tiktok.com/@trac_astra"
+                        target="_blank"
+                      >
                         <img
                           src="https://tracomni.blob.core.windows.net/logo-trac/ttk_icons.svg"
                           width="20"
@@ -166,7 +176,10 @@
                       </a>
                     </td>
                     <td style="padding-right: 10px; padding-left: 10px">
-                      <a href="https://google.com" target="_blank">
+                      <a
+                        href="https://www.facebook.com/TRACAstraRentACar/"
+                        target="_blank"
+                      >
                         <img
                           width="20"
                           src="https://tracomni.blob.core.windows.net/logo-trac/fb_icons.svg"
@@ -176,7 +189,7 @@
                       </a>
                     </td>
                     <td style="padding-right: 10px; padding-left: 10px">
-                      <a href="https://google.com" target="_blank">
+                      <a href="https://x.com/trac_astra" target="_blank">
                         <img
                           width="20"
                           src="https://tracomni.blob.core.windows.net/logo-trac/x_icons.svg"
@@ -186,7 +199,10 @@
                       </a>
                     </td>
                     <td style="padding-right: 10px; padding-left: 10px">
-                      <a href="https://google.com" target="_blank">
+                      <a
+                        href="https://www.youtube.com/channel/UC-9jLt-k0R30YzImXxnn6PQ"
+                        target="_blank"
+                      >
                         <img
                           width="20"
                           src="https://tracomni.blob.core.windows.net/logo-trac/yt_icons.svg"
@@ -247,28 +263,38 @@
                       <table cellpadding="0" cellspacing="0">
                         <tr>
                           <td>
-                            <img
-                              src="https://tracomni.blob.core.windows.net/logo-trac/download_apple.svg"
-                              alt="download_apple.jpg"
-                              width="120"
-                              style="
-                                display: block;
-                                margin: 0 10px;
-                                padding-bottom: 15px;
-                              "
-                            />
+                            <a
+                              href="https://apps.apple.com/us/app/tractogo-rental-mobil-bus/id1459840738"
+                              target="_blank"
+                            >
+                              <img
+                                src="https://tracomni.blob.core.windows.net/logo-trac/download_apple.svg"
+                                alt="download_apple.jpg"
+                                width="120"
+                                style="
+                                  display: block;
+                                  margin: 0 10px;
+                                  padding-bottom: 15px;
+                                "
+                              />
+                            </a>
                           </td>
                           <td>
-                            <img
-                              src="https://tracomni.blob.core.windows.net/logo-trac/download_play.svg"
-                              alt="download_play.jpg"
-                              width="120"
-                              style="
-                                display: block;
-                                margin: 0 5px;
-                                padding-bottom: 15px;
-                              "
-                            />
+                            <a
+                              href="https://play.google.com/store/apps/details?id=com.trac.tractogo&pcampaignid=web_share"
+                              target="_blank"
+                            >
+                              <img
+                                src="https://tracomni.blob.core.windows.net/logo-trac/download_play.svg"
+                                alt="download_play.jpg"
+                                width="120"
+                                style="
+                                  display: block;
+                                  margin: 0 5px;
+                                  padding-bottom: 15px;
+                                "
+                              />
+                            </a>
                           </td>
                         </tr>
                       </table>

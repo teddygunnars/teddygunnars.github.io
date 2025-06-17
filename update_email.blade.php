@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Login Info</title>
+</head>
+
+<body
+    style="margin: 0; padding: 0; background-color: #f5f5f5; display: flex; justify-content: center; font-family: Arial, Helvetica, sans-serif;">
+    <table width="100%" cellpadding="0" cellspacing="0" border="0" bgcolor="#f4f4f4">
+        <!-- HEADER -->
+        <tr>
+            <td align="center">
+                <table width="600" cellpadding="0" cellspacing="0" border="0" style="background: #fff; margin: 20px 0">
+                    <tr>
+                        <td>
+                            <img align="center" width="100%" src="https://teddygunnars.github.io/header_master.png"
+                                alt="header_master.png" />
+                        </td>
+                    </tr>
+                    <!-- END OF HEADER -->
+                    <!-- BODY -->
+                    <tr>
+                        <td style="padding: 45px; font-size: 16px; color: #333">
+                            <p style="font-size: 16px; font-weight: 600; padding: px 0">
+                                Email Anda Berhasil Diubah!
+                            </p>
+
+                            <p style="font-size: 14px; font-weight: 500">
+                                Anda berhasil melakukan perubahan email yang digunakan untuk
+                                akun TRACtoGo. Selamat kembali beraktivitas!
+                            </p>
+
+                            <p style="font-size: 14px; font-weight: 500">
+                                Salam hangat,<br />
+                                Tim TRACtoGo
+                            </p>
+                        </td>
+                    </tr>
+                    <!-- END OF BODY -->
+                    <!-- FOOTER -->
+                    <tr style="background: #fbfbfb">
+                        <td style="text-align: center; font-size: 14px; padding: 20px">
+                            Email ini dikirim otomatis. Punya pertanyaan? Silahkan hubungi
+                            kami.
+                        </td>
+                    </tr>
+                    <tr style="background: #fbfbfb">
+                        <td width="100%">
+                            <table cellpadding="0" cellspacing="0" align="center">
+                                <tr>
+                                    <td style="padding-right: 10px">
+                                        <img src="https://teddygunnars.github.io/phone_icons.svg" width="18"
+                                            alt="phone.png" style="display: block; text-align: center" />
+                                    </td>
+                                    <td>
+                                        <a target="_blank" href="https://www.trac.astra.co.id/support/hubungi-kami"
+                                            style="
+                            color: #1a73e8;
+                            text-decoration: none;
+                            font-weight: 500;
+                            font-size: 14px;
+                          ">1500-009</a>
+                                    </td>
+                                    <td style="padding-left: 20px; padding-right: 10px">
+                                        <img width="18" src="https://teddygunnars.github.io/mail_icons.svg"
+                                            alt="email.png" style="display: block; text-align: center" />
+                                    </td>
+                                    <td>
+                                        <a href="mailto:trac-astrarentcar@ai.astra.co.id" style="
+                            color: #1a73e8;
+                            text-decoration: none;
+                            font-weight: 500;
+                            font-size: 14px;
+                          ">trac-astrarentcar@ai.astra.co.id</a>
+                                    </td>
+                                </tr>
+                            </table>
+                        </td>
+                    </tr>
+                    <tr style="background: #fbfbfb">
+                        <td width="100%">
+                            <table cellpadding="0" cellspacing="0" align="center"
+                                style="padding-top: 20px; padding-bottom: 5px">
+                                <tr style="border-bottom: 1px solid black">
+                                    <td style="padding-right: 10px; padding-left: 10px">
+                                        <a href="https://www.instagram.com/trac_astra" target="_blank">
+                                            <img width="20" src="https://teddygunnars.github.io/ig_icons.svg"
+                                                alt="ig.png" style="display: block; text-align: center" />
+                                        </a>
+                                    </td>
+                                    <td style="padding-right: 10px; padding-left: 10px">
+                                        <a href="https://www.tiktok.com/@trac_astra" target="_blank">
+                                            <img src="https://teddygunnars.github.io/ttk_icons.svg" width="20"
+                                                alt="ttk.png" style="display: block; text-align: center" />
+                                        </a>
+                                    </td>
+                                    <td style="padding-right: 10px; padding-left: 10px">
+                                        <a href="https://www.facebook.com/TRACAstraRentACar/" target="_blank">
+                                            <img width="20" src="https://teddygunnars.github.io/fb_icons.svg"
+                                                alt="fb.png" style="display: block; text-align: center" />
+                                        </a>
+                                    </td>
+                                    <td style="padding-right: 10px; padding-left: 10px">
+                                        <a href="https://x.com/trac_astra" target="_blank">
+                                            <img width="20" src="https://teddygunnars.github.io/x_icons.svg" alt="x.png"
+                                                style="display: block; text-align: center" />
+                                        </a>
+                                    </td>
+                                    <td style="padding-right: 10px; padding-left: 10px">
+                                        <a href="https://www.youtube.com/channel/UC-9jLt-k0R30YzImXxnn6PQ"
+                                            target="_blank">
+                                            <img width="20" src="https://teddygunnars.github.io/yt_icons.svg"
+                                                alt="yt.png" style="display: block; text-align: center" />
+                                        </a>
+                                    </td>
+                                </tr>
+                            </table>
+                    <tr style="background: #fbfbfb">
+                        <td align="center">
+                            <hr style="
+                          border: 0;
+                          border-top: 2px solid #e0e0e0;
+                          width: 550px;
+                        " />
+                        </td>
+                    </tr>
+            </td>
+            <td style="background: #fbfbfb">
+                <table width="600" cellpadding="0" cellspacing="0" border="0s" style="
+                      background: #fbfbfb;
+                      margin-top: 5px;
+                      padding-right: 20px;
+                    ">
+                    <tr style="background: #fbfbfb">
+                        <td colspan="2" width="100%" align="right" style="font-size: 14px; padding-right: 76px">
+                            Unduh aplikasi TRACtoGo di:
+                        </td>
+                    </tr>
+                    <tr>
+                        <td align="left" style="padding-left: 24px; padding-bottom: 25px">
+                            <img src="https://teddygunnars.github.io/brand_logo_footer.svg" alt="brand_logo2.jpg"
+                                width="100" style="display: block" />
+                        </td>
+                        <td align="right">
+                            <table cellpadding="0" cellspacing="0">
+                                <tr>
+                                    <td>
+                                        <a href="https://apps.apple.com/us/app/tractogo-rental-mobil-bus/id1459840738"
+                                            target="_blank">
+                                            <img src="https://teddygunnars.github.io/download_apple.svg"
+                                                alt="download_apple.jpg" width="120" style="
+                                    display: block;
+                                    margin: 0 10px;
+                                    padding-bottom: 15px;
+                                  " />
+                                        </a>
+                                    </td>
+                                    <td>
+                                        <a href="https://play.google.com/store/apps/details?id=com.trac.tractogo&pcampaignid=web_share"
+                                            target="_blank">
+                                            <img src="https://teddygunnars.github.io/download_play.svg"
+                                                alt="download_play.jpg" width="120" style="
+                                    display: block;
+                                    margin: 0 5px;
+                                    padding-bottom: 15px;
+                                  " />
+                                        </a>
+                                    </td>
+                                </tr>
+                            </table>
+                        </td>
+                    </tr>
+                </table>
+            </td>
+        </tr>
+    </table>
+    </td>
+    </tr>
+    <!-- END OF FOOTER -->
+    </table>
+</body>
+
+</html>
